@@ -25,3 +25,13 @@ Estágios de um arquivo no repositório:
 
 // Permite analizar informações sobre os comits, como data e hora da modificação 
 6) git log 	
+
+// Adiciona todos os arquivos ao status de prontos para comitar, tanto arquivos novos, como arquivos que foram modificados
+7) git add . 
+
+// faz add e commit ao mesmo tempo 
+8) git commit -a -m "mensagem"
+
+
+
+
