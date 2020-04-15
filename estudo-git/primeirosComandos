@@ -10,3 +10,18 @@
 
 // Exibe o status do repositório do git
 5) git status 
+
+Estágios de um arquivo no repositório:
+	1 - Untracked files ou arquivos não monitorados
+		São arquivos novos que ainda não são enxergados/reconhecidos pelo git	
+
+	2 - Changes to be committed ou mudanças a serem submetidas
+		Ao executar o comando [git add <arquivo>] o git passa a monitorar os arquivos antes desconhecidos, porem eles ainda não estão versionados, ou seja não possuem um número de versão. 
+
+	3 - Arquivos comitados 
+		Nesse estágio o arquivo ja faz parte do controle de versão, ou seja ele esta sendo versionado
+	
+		Ao editar um arquivo que esta no terceiro estagio ele volta para o segundo estágio e você precisa executar git add <arquivo> para aceitar as mudanças no arquivo e depois  git comit <arquivo>  para gerar uma nova versão desse arquivo.
+
+// Permite analizar informações sobre os comits, como data e hora da modificação 
+6) git log 	
