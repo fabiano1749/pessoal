@@ -1,0 +1,12 @@
+//Definir usuário no git
+1) git config --global user.name "fabiano1749" 
+2) git config --global user.email "fabiano1749@gmail.com"
+
+//O git vai colorir as interações feitas por mim 
+3) git config --global color.ui true 
+
+// O diretório que esse comando foi executado torna-se um repositírio do git. É criada a pasta .git que o git usará para versionar os documentos
+4) git init 
+
+// Exibe o status do repositório do git
+5) git status 
