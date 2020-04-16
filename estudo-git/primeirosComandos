@@ -43,7 +43,8 @@ Estágios de um arquivo no repositório:
 // Pode ser aquivo ou pasta 1 por linha. 
 9) .gitignore
 
-10)
+10) git checkout <hash do commit> cria um novo branch contendo o stado do repositorio no instante em que foi feito aquele commit.
+	O comando git checkout  serve também para altenar entre os diversos branches existentes. As alterações feitas em um branch não afeta 		outros.     
 
 
 
