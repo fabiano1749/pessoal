@@ -30,7 +30,7 @@ Estágios de um arquivo no repositório:
 	3) git log --stat Exibe as estatisticas de das alterações em cada arquivo. Número de inserções e deleções por exemplo.
 	4) git log --pretty=oneline Exibe os comites em uma única linha - hash + mensagem.
 	5) git log --pretty=format:"%h - %an, %ar : %s" Exibe os comits em uma linha porem com as informações do comit formatadas.
-	6) git log --since=2days Exibe todos os comites realizados nos ultimos 2 dias
+	6) git log --since=2.days Exibe todos os comites realizados nos ultimos 2 dias
 
 
 // Adiciona todos os arquivos ao status de prontos para comitar, tanto arquivos novos, como arquivos que foram modificados
@@ -38,6 +38,9 @@ Estágios de um arquivo no repositório:
 
 // faz add e commit ao mesmo tempo 
 8) git commit -a -m "mensagem"
+
+// Arquivo usado para que o git possa ignorar arquivos. Os nomes de arquivos listados neste arquivo não serão controlados pelo git. 
+9) .gitignore
 
 
 
