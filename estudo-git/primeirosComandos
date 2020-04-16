@@ -46,5 +46,5 @@ Estágios de um arquivo no repositório:
 10) git checkout <hash do commit> cria um novo branch contendo o stado do repositorio no instante em que foi feito aquele commit.
 	O comando git checkout  serve também para altenar entre os diversos branches existentes. As alterações feitas em um branch não afeta 		outros.     
 
-
+11) git reset HEAD~1 --soft Volta 1 commit. As mudanças feitas valtam para o status anterior.
 
