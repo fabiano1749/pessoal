@@ -40,6 +40,7 @@ Estágios de um arquivo no repositório:
 8) git commit -a -m "mensagem"
 
 // Arquivo usado para que o git possa ignorar arquivos. Os nomes de arquivos listados neste arquivo não serão controlados pelo git. 
+// Pode ser aquivo ou pasta 1 por linha. 
 9) .gitignore
 
 
