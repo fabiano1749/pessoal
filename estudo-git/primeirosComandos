@@ -49,3 +49,13 @@ Estágios de um arquivo no repositório:
 11) git reset HEAD~1 --soft Volta 1 commit. As mudanças feitas valtam para o status anterior. O commit é apagado porém as mudanças realizadas voltam 	 para o status anterior, prontas para serem commitadas novamente.
 
 12) git reset HEAD~1 --hard Volta 1 commit. O commit e as alterações feitas no commit são perdidas.
+
+// Com esse comando é criado um novo branch a partir do do branch corrente
+13) git checkout -b <nome do branch>
+
+
+
+
+
+
+
