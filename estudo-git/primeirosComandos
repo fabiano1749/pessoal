@@ -53,7 +53,9 @@ Estágios de um arquivo no repositório:
 // Com esse comando é criado um novo branch a partir do do branch corrente
 13) git checkout -b <nome do branch>
 
-
+// Mescla comits de um branch em outro branch: Todos dos os commtis do branch alvo passarão a ser comits do branch corrente
+// É criado um commit no branch corrente para evidenciar a ocorrencia do merge 
+14) git merge <nome do branch que eu quero mesclar> 
 
 
 
