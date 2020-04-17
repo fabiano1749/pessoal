@@ -55,9 +55,11 @@ Estágios de um arquivo no repositório:
 
 // Mescla comits de um branch em outro branch: Todos dos os commtis do branch alvo passarão a ser comits do branch corrente
 // É criado um commit no branch corrente para evidenciar a ocorrencia do merge 
-14) git merge <nome do branch que eu quero mesclar> 
+14) git merge <nome do branch alvo> 
 
-
+// Localmente pode se executar esse comando para mesclar os commits de dos branchs sem a criação do commit para evidenciar o merge
+// Aparentemente os commit do branch alvo passarão a ser tambem commits do branch corrente
+15) get rebase <nome do branch alvo>
 
 
 
