@@ -61,5 +61,19 @@ Estágios de um arquivo no repositório:
 // Aparentemente os commit do branch alvo passarão a ser tambem commits do branch corrente
 15) get rebase <nome do branch alvo>
 
+16) Criar chave rsa para eliminar a necessidade de autenticação em todo push.
+	1) ssh-keygen
+	2) É só dar enter
+	3) Sobrescrever se for o caso
+	4) No github ir em configuraçao / chave ssh e adicionar a nova chave
+	5) Adicionar o repositório remoto: git remote add origin https://github.com/fabiano1749/pessoal.git
+	6) Enviado o branch master para o repositório remoto: git push origin master
+	7) Os últimos 2 comandos foram executados porque criei um repositório no github sem o readmi, ou seja o github não criou o master.
+ 
+
+
+
+
+
 
 
