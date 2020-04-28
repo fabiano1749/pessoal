@@ -5,10 +5,31 @@
 	<meta charset="utf-8">
 	<title>Estutura básica</title>
 	<link rel="stylesheet" type="text/css" href="estilo1.css" media="screen" />
+	<script type="text/javascript" src="jQuery-3.5.js"></script>
+	<script type="text/javascript" src="script.js"></script>
 </head>
 <body>
-<center>
-	<p id="idP1">Estrutura básica de um documento html.</p>
-</center>
+<h1 id="idH1" class="texto-centralizado fundo-colorido">Treinamento sobre html e css básico </h1>
+
+<p id="idP1" >Estrutura básica de um documento html.</p>
+
+
+<form action=""> 
+	<fieldset>
+		<legend>Cadastro</legend>
+		<label for="nome">Nome</label>
+		<input type="text" name="nome" id="nome">
+
+		<label for="sobrenome">Sobrenome</label>
+		<input type="text" name="sobrenome" id="sobrenome">
+
+		<label for="idade">Idade</label>
+		<input type="text" name="idade" id="idade">
+
+		<input type="button" name="Enviar" value="Enviar" onclick="teste()">
+	</fieldset>
+</form>
+
+
 </body>
 </html>

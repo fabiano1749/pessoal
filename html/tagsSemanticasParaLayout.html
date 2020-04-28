@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tags para definição de layout</title>
+
+	<style type="text/css">
+		
+		body{
+			border: solid;
+			border-width: 1px; 
+			margin: 1px; 
+			padding: 3px
+		}
+
+		header{
+			border: solid; 
+			border-width: 1px;
+			display: grid;
+			grid-template-columns: auto auto;
+		}
+
+		.menu{
+			display: inline-block;
+
+		}
+
+		.logo{
+			display: inline-block;
+		}
+
+		.menu ul{
+			list-style-type: none;
+		}
+
+		.menu ul li{
+			float: left;
+			margin-left: 70px;
+		}
+
+		section{
+			height: 470px;
+		}
+
+		footer{
+			border: solid; 
+			border-width: 1px;
+		}
+	</style>
+
+</head>
+<body>
+	<header>
+		<img src="bicame.jpg" width="150" height="50"  class="logo">
+		<nav class="menu">
+			<ul>
+				<li>Menu-1</li>				
+				<li>Menu-2</li>	
+				<li>Menu-3</li>	
+				<li>Menu-4</li>	
+			</ol>
+		</nav>	
+	</header>
+
+	<section>
+		<p>Tag html5 para seções</p>	
+	</section>
+
+	<footer>
+		<p>Tag html5 para Rodapé</p>	
+	</footer>
+
+</body>
+</html>

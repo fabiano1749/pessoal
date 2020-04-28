@@ -1,5 +1,39 @@
+/*Seletor universal: Aplica o estilo a todo o documento html*/
+* {
+	color: green;		
+}
+
+
+/*Seletor por tag: Aplica o estilo a todas as tags do tipo indicado*/
 p {
   font-family: verdana;
   font-size: 20px;
-  color: red;
 }
+
+/*Seletor por class: Aplica o estilo a todos os elementos que possuem essa classe*/
+.texto-centralizado{
+	text-align: center;
+}
+
+.fundo-colorido{
+	background: orange;
+}
+
+/*Seletor por id: Aplica o estilo a um elemento específico*/
+
+#idP1{
+	font-size: 50px;
+}
+
+/*Seletor por Atributo: Aplica o estilo com base nos atributos dos elementos*/
+input[type ="text"]{
+	background: #55f;
+	padding: 10px;
+	border: none;
+}
+
+
+/* Video com explicação de outros seletores.  https://www.youtube.com/watch?v=nY8SfXzrfEU */
+
+
+
