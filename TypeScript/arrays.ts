@@ -1,4 +1,4 @@
-let notas: number[] = [2, 7, 6, 3];
+let notas: number[] = [2, 8, 6, 3];
 
 function soma(notas: number[]){
     let total: number = 0;

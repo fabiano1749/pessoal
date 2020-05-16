@@ -1,4 +1,4 @@
-let notas = [2, 7, 6, 3];
+let notas = [2, 8, 6, 3];
 function soma(notas) {
     let total = 0;
     for (a of notas) {
